@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Week 7 ePortfolio part 1</title>
+	<style type="text/css">
+	
+	
+	h3{text-align: center;}
+	form{width: 650px; height: 830px; margin: auto; border: 1px solid;
+		  }
+
+	textarea{width: 350px; height: 120px; margin-left: 150px;}
+
+	s{display: block; text-align: center; }
+
+	p{border-bottom: 1px solid; padding-bottom: 10px; }
+
+	#p{margin-left: 200px;}
+
+	.label{display: inline-block; width: 400px; padding-left: 10px; }
+
+	.label1{margin-left: 200px;}
+
+	input[type="time"]{width: 120px;}
+
+	input[type="number"]{width: 150px;}
+
+	input[type="range"]{width: 190px;}
+
+	input[type="radio"]{width: 30px;}
+
+	input[type="submit"]{margin-left: 270px;}
+
+	input[type="reset"]{margin-left: 285px;}
+
+
+	</style>
+</head>
+<body>
+<h3>Registration for Covid-19 Volunteer - &reg; C19-Team</h3>
+
+<form method="" action="">
+	<p>
+		<label class="label" for="Fullname">Fullname</label>
+		<input type="text" name="Fullname" id="Fullname" maxlength="30">
+	</p>
+	
+	<p>
+		<label class="label" for="Email">Email</label>
+		<input type="text" name="Email" id="Email">
+	</p>
+	
+	<p>
+		<label class="label" for="Date">Date you can start</label>
+		<input type="date" name="date" id="Date">
+	</p>
+	
+	<p>
+		<label class="label" for="Time">Morning shift preference</label>
+		<input type="time" name="time" id="Time">
+	</p>
+	
+	<p>
+		<label class="label" for="Time2">Evening shift perference</label>
+		<input type="time" name="time" id="Time2">
+	</p>
+	
+	<p>
+		<label class="label" for="Time3">How many hours you can work? In multiple of 3</label>
+		<input type="number" min="3" max="9" step="3" name="time" id="Time3">
+	</p>
+	
+	<p>
+		<label class="label" for="Distance">Distance you willing to commute to volunteer center?</label>
+		1<input type="range" min="1" max="15" value="3" name="distance" id="Distance">15
+	</p>
+	
+	<p>
+		<label class="label" for="Currency">You currency perference for payment?</label>
+		<input type="radio" name="currency" id="Currency"> &pound;
+		<input type="radio" name="currency" id="Currency"> &yen;
+		<input type="radio" name="currency" id="Currency"> &#8364;
+	</p>
+		
+	<p><textarea  placeholder="Type your home address"></textarea></p>
+
+	<p><s>You will be given daily meals</s></p>
+
+	<p>
+		<input class="label1" type="checkbox" disabled checked name="cb1" id="tnc">
+		<label for="tnc">I agree to all terms and conditions</label>
+	</p>
+		
+	<p>
+		<label class="label1" for="tnc1">Prove you are not robot: 10 &lt; 20&quest;</label>
+		<input type="checkbox" type="hidden" name="cb1" id="tnc1">
+	</p>
+
+	
+	<p><input  type="submit" name="volunteer" value="Volunteer now!"></p>
+
+	<p><input  type="reset" name="start" value="Start over"></p>
+		
+	<label id="p">For more informaton, visit MOH <a href="https://www.moh.gov.bn/Pages/Home.aspx" target="_blank">website</a></label>
+		
+
+</form>
+
+
+</body>
+</html>
